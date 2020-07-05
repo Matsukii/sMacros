@@ -13,7 +13,7 @@ Does to need arduino/board with HID
 ## USAGE
 1. Upload the arduino sketch file to your board, you can change the baudrate, buttons and toggle [Port manipulation](https://www.arduino.cc/en/Reference/PortManipulation) if isn't compatible with the board to use commom ```digitalRead() ```
 
-2. [if you changed baudrate] open jmacro.py and change the variable or use [CLI arguments](#arguments)
+2. [if you changed baudrate] open jmacro.py and change the variable or use [CLI arguments](#cli-arguments)
 
 3. Open jmacro.py and create your own macro actions for the buttons attached to arduino 
 
