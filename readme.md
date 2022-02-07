@@ -8,7 +8,7 @@ Does to need arduino/board with HID
 
 ## WORKING
 - Arduino prints the button pressed in Serial inteface
-- A python script keeps listening for data from Serial, read and execute a action that can be anything
+- A python script listen for data in Serial port, read and execute the actions you defined
 
 ## USAGE
 1. Upload the arduino sketch file to your board, you can change the baudrate, buttons and toggle [Port manipulation](https://www.arduino.cc/en/Reference/PortManipulation) if isn't compatible with the board to use commom ```digitalRead() ```
